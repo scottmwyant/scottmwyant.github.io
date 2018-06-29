@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>SMW</title>
+  <link href="styles/bootstrap.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style>
+    .jumbotron{
+      background-color: whitesmoke;
+      border-radius: 0 0 1rem 1rem;
+    }
+    @media (min-width: 768px) {
+      .border-md-right {
+        border-right: 1px solid gray !important;
+      }
+    }
+    @media(max-width: 575px){
+      html, body, main{height: 100%;}
+      .jumbotron{
+        border-radius: 0;
+        margin-bottom: 0;
+      }
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <main class="container jumbotron">
+    <div class="row">
+
+      <!-- First column, profile pic -->
+      <div class="col-md-4 text-center mb-3">
+        <div style="max-width: 275px; margin: auto; text-align: center;">
+          <img style="max-width: 100%;" src="img/Me_400x500.png"
+          class="img-thumbnail">
+        </div>
+        
+        <!-- Social icons -->
+        <div class="my-3" style="text-align: center;">
+          <a href="https://github.com/scottmwyant" target="_blank"><img src="img/social_github.png" alt="GitHub"
+              width="32px"></a>
+          <a href="https://twitter.com/scottmwyant" target="_blank"><img src="img/social_twitter.png" alt="twitter"
+              width="32px"></a>
+          <a href="https://www.linkedin.com/in/scott-wyant-a2a13829/" target="_blank"><img src="img/social_linkedin.png"
+              alt="LinkedIn" width="32px"></a>
+        </div>
+
+      </div>
+
+      <!-- Second column, text -->
+      <div class="col">
+        <h2 class="text-center text-md-left">Scott M. Wyant</h2>
+        <div class="row">
+          <div class="text-center text-md-left col col-md-auto border-md-right">
+            Engineer
+          </div>
+          <div class="col-md text-center text-md-left">
+            Cleveland, Ohio
+          </div>
+        </div>
+
+        <p class="lead my-4">Born and raised twenty five miles east of Cleveland, Ohio I've lived in the greater
+          Cleveland area my entire life. A graduate of Cleveland State University, my formal education is in Mechanical
+          Engineering.</p>
+        <p>I began my career in metalworking in 2010 and while still enjoy that sector today, I'm also drawn to software
+          development. I first became interested in coding while completing course work in C++ and MatLab. I've come a
+          long way since those days, all thanks to the vast community of developers who have taken time to share their
+          experiences to the benefit of others.</p>
+        <p>In the future I'd like find a way to contribute back to that community either through open-source, STEM
+          outreach, blog articles, or some other means. While I try and figure that out, feel free to say hi or send me
+          a link to your project.</p>
+      </div>
+
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>
