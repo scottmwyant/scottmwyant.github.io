@@ -1,0 +1,35 @@
+/*!
+ *
+ *  The selectors in this file are intended to be used on multiple
+ *  pages on this site.
+ *
+ */
+
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 170px; /* Should be equal to the height of your footer */
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+} 
+footer .container{
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 1.5rem;
+  text-align: center;
+} 
+footer a{
+  padding: 1.5rem;
+  vertical-align: middle;
+  font-size: 80%;
+  font-weight: 400;
+}
+strong{
+  line-height: 3rem;
+}

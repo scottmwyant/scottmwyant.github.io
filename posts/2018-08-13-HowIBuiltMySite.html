@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <title>SMW Blog</title>
+  <link href="../styles/bootstrap.css" rel="stylesheet">
+  <link href="../styles/bootstrap-mod.css" rel="stylesheet">
+  <link href="../styles/site.css" rel="stylesheet">
+  <link href="../styles/article.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+  
+<body>
+  
+  <nav>
+    <div class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand mr-auto" href="../index.html">Scott M. Wyant</a>
+        <div class="navbar-nav ml-auto">
+        </div>
+    </div>
+  </nav>
+
+  <header>    
+    <div class="container">
+      <div class="row border-bottom">
+        <div class="col">    
+          <h1 id="article-title">How I Built My Site</h1>
+          <h2 id="article-subtitle">Technologies I use and why</h2>
+          <p id="article-date">August 13, 2018</p>
+        </div>
+        <div id="article-img" class="col-sm-4">
+          <img src="img/2018-08-13/html5-topper.png" alt="html5" height="100%" width="auto" title="html5-topper.png">
+        </div>
+      </div>
+    </div> 
+  </header>
+  
+  <article>
+    <div class="container">  
+      <div class="row">
+        <div class="col">
+
+          <h4>The Stack</h4>
+          
+          <p>I'm registered through <a href="https://domains.google/">Google Domains</a> ($1/month) and hosted on <a href="https://pages.github.com/">GitHub Pages</a> ($0/month).  I'm using <a href="https://getbootstrap.com/">Bootstrap</a> to help control the layout and formatting but I'm not using any other libraries.  This is a static site, everything is "hand-written" with <a href="https://code.visualstudio.com/">Visual Studio Code</a> and version controlled with <a href="https://git-scm.com/">Git</a>.  The graphics I'm using I've either created myself with <a href="https://www.gimp.org/">GIMP</a> or purchased from <a href="https://thenounproject.com/">The Noun Project</a>.  My contact form is setup with <a href="https://formspree.io/">formspree</a>. </p>
+          
+          <h4>Use Case</h4>
+          
+          <p>Now I'll  provide some context for the technologies I've listed above.  I'm not doing anything fancy.  I specifically wanted to avoid adding complexity.  I set out to gain experience with the foundational front-end technologies and standards that run the modern web.  There are a ton of cool tools and libraries available to speed things up, and I may choose to grow into some of those tools (<a href="https://jekyllrb.com/">Jekyll</a> looks pretty nice) but for now I'm driven to keep it simple.</p>
+          
+          <p>I wanted to get comfortable with how the markup (html) and stylesheets (css) interact and how to manipulate the presentation with client-side code (javascript).  If you're reading this, you might be looking for the same kind of experience.  Go ahead and open up the dev tools section of the browser and take a look around.  Alternatively, check out the <a href="https://github.com/scottmwyant/scottmwyant.github.io">repository</a> on GitHub.</p>
+          
+          <p>When I started looking into building a website, I found that there are a ton of places to pick up information and examples on specific topics, but I had a hard time finding something that would show you the whole picture.  You could argue that's because the majority of sites don't use static pages that are written from scratch.  I'd agree with that, but for learning purposes, I think it does help immensely to look at one complete, working example.</p>
+          
+          <h4>Recommendations</h4>
+          
+          <p> I really like how everything is working together. When I started thinking about how I would host my site, I  was unaware of GitHub Pages, so that kind of stole the show for me.  It's part of GitHub, zero-cost, and you can have a site up in minutes. I had to read through some documentation to get my custom domain working but it's really just a matter of a couple DNS settings.  A single word of warning, at this time GitHub Pages does not support any sort of back-end processing, which is totally understandable for the price.  I'm more familiar with back-end technologies than front-end but I've never gotten anything hosted out on the web. I've always just ran locally through Visual Studio and IIS.  Eventually I'll want to get some of that out on the web so that means  I'll have to pay for hosting.  The point is, if you want to jump into server-side code right away, you won't be using GitHub Pages.</p>
+
+          <p>I have experience with Visual Studio but decided to switch to VS Code for this project.  The main reason I switched is that VS Code is just so much lighter running and I've been doing a lot of the work for this site on an older core i3 laptop.  I find VS Code is a good comprimise between power and agility; it's not as heavy as Visual Studio but it's a lot more immersive than something like Notepad++.  Unfortunately, on the budget laptop I'm using it will occasionally lag a little, but usually not for more than two or three seconds.</p>
+
+          <div id="article-attribution">
+            <p>"html5-topper.png" by <a href="https://www.w3.org/html/logo/img/html5-topper.png">W3C</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </article>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a href="https://github.com/scottmwyant" target="_blank">GitHub</a>
+          <a href="https://twitter.com/scottmwyant" target="_blank">Twitter</a>
+          <a href="../pages/contact.html" target="_top">Email</a>
+          <!--<a href="resume.pdf">Resume</a>-->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

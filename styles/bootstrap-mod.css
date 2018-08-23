@@ -1,0 +1,17 @@
+/*!
+ * Bootstrap v4.1.1
+ *
+ *  The selectors in this file are intended to override selectors
+ *  in bootstrap.css (Bootstrap v4.1.1), so to work correctly, this
+ *  file should be referenced after the original bootstrap file.
+ *
+ */
+
+body {
+  margin: auto;
+  max-width: 1200px;
+}
+h4{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
