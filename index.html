@@ -9,42 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <style>
-      button img{
-        height: 48px;
-        width: auto;
-      }
-      button{
-        background-color: white;
-        padding: 18px;
-        border: none;
-        text-align: center;
-        outline: none;
-        width: 100%;
-      }
-
-      button:focus, button.active{
-        outline: 0;
-        box-shadow: 0 0 0 0 white;
-      }
-
-      button.active{
-        background-color: whitesmoke;
-      }
-
-      button:hover{
-        cursor: pointer;
-      }
-
-      button.active{
-        border: 1px solid gray;
-      }
-
       .jumbotron{
         background-color: whitesmoke;
         border-radius: 0rem 0rem 0.5rem 0.5rem;
       }
-
-
     </style>
 
 </head>
@@ -52,7 +20,7 @@
 <body>
 
   <nav>
-    <div class="navbar navbar-expand-sm navbar-dark bg-dark"> <!-- add 'fixed-top' class-->
+    <div class="navbar navbar-expand-sm navbar-dark bg-dark">
       <a class="navbar-brand mr-auto" href="#">Scott M. Wyant</a>
       <div class="navbar-nav ml-auto">
       </div>
@@ -68,7 +36,7 @@
           </div>
           <div class="col-md-8">
             <h2 class="display-4">Hello, world!</h2>
-            <p class="lead">I couldn't think of a more appropriate heading for this site, so I'm sticking with this timeless programming clich&eacute;.  Click the icons below to learn a little about me and my perspective on the topics I write about.</p>
+            <p class="lead">I couldn't think of a more appropriate heading for this page, so I'm sticking with this timeless programming clich&eacute;.  This is where you can learn a little about me and my perspective on the topics I write about.  If you're looking for blog atricles, hit the link below. </p>
               <div class="text-center">  
                 <a id="btnBlog" href="pages/content.html" class="btn btn-primary float-center my-4 px-3">Blog >></a>
               </div>
@@ -80,67 +48,60 @@
   
   <main>
     <div class="container">
-      <div id="rowIcon" class="row text-center">
-        <div class="col border-left">
-            <button id="button0">
-              <img src="pages/img/index/AboutMe_0072.png" alt="AboutMe">
-            </button>
-          </div>
-      <div class="col border-left">
-          <button id="button1">
-            <img src="pages/img/index/Factory_0072.png" alt="Manufacturing">
-          </button>
+      <div class="row py-5">
+        <div class="col-2 text-center">
+          <img src="pages/img/index/AboutMe_0072.png" alt="AboutMe">
         </div>
-        <div class="col border-left">
-          <button id="button2">
-              <img src="pages/img/index/Normal_0072.png" alt="Quality">
-            </button>
-        </div>
-        <div class="col border-left">
-          <button id="button3">
-              <img src="pages/img/index/Gears_0072.png" alt="Design">
-            </button>
-        </div>
-        <div class="col border-left">
-          <button id="button4">
-              <img src="pages/img/index/Code_0072.png" alt="Code">
-            </button>
-        </div>
-        <div class="col border-left border-right">
-          <button id="button5">
-              <img src="pages/img/index/Build_0072.png" alt="Building">
-            </button>
-        </div>
-      </div><!-- icon row -->
-      <div id="rowContent" class="row py-0">
         <div class="col">
-          <section id="content0">
-            <h4>About Me</h4>
+          <h4 class="mt-0">About Me</h4>
             <p>Born and raised twenty five miles east of Cleveland, Ohio I've lived in the greater Cleveland area my entire life.  A graduate of Cleveland State University, my formal education is in Mechanical Engineering.  I first became interested in coding while completing course work in C++ and MatLab.  Around that same time I worked on a data-mining project at an internship where I was introduced to VBA.</p> 
             <p>Now I enjoy working with modern web technologies and have a number of projects competing for my attention.  This is all thanks to the vast community of developers who have taken time to share their experiences for the benefit of others.  My purpose in creating this site is to contribute back to that community.</p>
-          </section>
-          <section id="content1">
-            <h4>Manufacturing</h4>
-            <p>I've worked in manufacturing for the majority of my professional life.  In my current role, my primary function  is to develop and maintain processes on CNC equipment.  I'm directly responsible for five machines that range from twin-turret turning, to 4- and 5-axis milling platforms.  I'm excited about the work my team is doing to advance our implementation of the enterprise CAM package.  I like to think of CNC code, or "G-code", as another programming language and the CAM software as the development environment.  In the future, I would like to bring some of the tools and concepts from software development over to the manufacturing world.</p>
-          </section>
-          <section id="content2">
-            <h4>Quality</h4>
-            <p>While working as Quality Engineer, my primary responsibility was to assess and mitigate risk related to customer returns.  Typically, this would mean leading a small cross-functional team through a disciplined problem solving process.  In this role, my knowledge and appreciation of applied statistics grew immensely.  I took particular interest in process capability studies, statistical process control (SPC), design of sampling plans (or average outgoing quality, AOQ) and design of experiments (DOE).</p>
-          </section>
-          <section id="content3">
-            <h4>Design</h4>
-            <p>I worked on a product design team as a co-op while I was in college.  When I finished school, I was given the opportunity to join the team as an applications engineer. The work I did was pretty typical for a product design role. I would start by getting an understanding the customer's application and  defining the requirements.  Then I would work with the manufacturing & assembly teams to design a solution and get a quote back to the customer.  While I was in this role I helped maintain an Access database that was used to store information about the customer requests and generate metrics on things like ticket complexity, the team's response time, and how requests would transform into sales.</p>          
-          </section>
-          <section id="content4">
-            <h4>Code</h4>
-            <p>Coding is something that I got into as a hobby and never got bored with.  In fact, it's just the opposite, the more I learn the more I want to do.  That drive has lead to me volunteer as tech-support with a local non-profit that focuses on addiction recovery.</p>
-            <p>I have a family member that is employed at this organization and I found myself explaining the interworkings of an Access database at family functions.  I ended up getting introduced to the director and working with them over about a six month period to configure and update their central database which was built years earlier by another volunteer.</p>
-            <p> More recently, I've been trying to get some exposure to a broader set of technologies.  I've had an affinity for .NET for a while now, and I don't see that changing, but I want to be more proficient with front-end web development.  Now that I've got this site going, the next thing I want to look at is Node JS.  I'm the beginning stages of planning good sized  project and I want to be more informed about the different tech stacks before I start writing code.</p>
-          </section>
-          <section id="content5">
-            <h4>Building</h4>
-            <p>Outside of computers and software, I think I've built some pretty cool stuff.  I've built two electric guitars, a gas fireplace with a custom surround and oak mantle, and custom cabinets for my basement.  I'm planning on keeping the content on this site pretty focused on tech and developer topics but, once in a while you might see an article about power tools or guitars.</p>  
-          </section>
+        </div>
+      </div>
+      <div class="row py-5" style="background-color: whitesmoke;">
+        <div class="col-2 text-center">
+          <img src="pages/img/index/Factory_0072.png" alt="Manufacturing">
+        </div>
+        <div class="col">
+          <h4 class="mt-0">Manufacturing</h4>
+          <p>I've worked in manufacturing for the majority of my professional life.  In my current role, my primary function  is to develop and maintain processes on CNC equipment.  I'm directly responsible for five machines that range from twin-turret turning, to 4- and 5-axis milling platforms.  I'm excited about the work my team is doing to advance our implementation of the enterprise CAM package.  I like to think of CNC code, or "G-code", as another programming language and the CAM software as the development environment.  In the future, I would like to bring some of the tools and concepts from software development over to the manufacturing world.</p>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-2 text-center">
+          <img src="pages/img/index/Normal_0072.png" alt="Quality">
+        </div>
+        <div class="col">
+          <h4 class="mt-0">Quality</h4>
+          <p>While working as Quality Engineer, my primary responsibility was to assess and mitigate risk related to customer returns.  Typically, this would mean leading a small cross-functional team through a disciplined problem solving process.  In this role, my knowledge and appreciation of applied statistics grew immensely.  I took particular interest in process capability studies, statistical process control (SPC), design of sampling plans (or average outgoing quality, AOQ) and design of experiments (DOE).</p>
+        </div>
+      </div>
+      <div class="row py-5" style="background-color: whitesmoke;">
+        <div class="col-2 text-center">
+          <img src="pages/img/index/Gears_0072.png" alt="Design">
+        </div>
+        <div class="col">
+          <h4 class="mt-0">Design</h4>
+          <p>I worked on a product design team as a co-op while I was in college.  When I finished school, I was given the opportunity to join the team as an applications engineer. The work I did was pretty typical for a product design role. I would start by getting an understanding the customer's application and  defining the requirements.  Then I would work with the manufacturing & assembly teams to design a solution and get a quote back to the customer.  While I was in this role I helped maintain an Access database that was used to store information about the customer requests and generate metrics on things like ticket complexity, the team's response time, and how requests would transform into sales.</p>          
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-2 text-center">
+          <img src="pages/img/index/Code_0072.png" alt="Code">
+        </div>
+        <div class="col">
+          <h4 class="mt-0">Code</h4>
+          <p>Coding is something that I got into as a hobby and never got bored with.  In fact, it's just the opposite, the more I learn the more I want to do.  That drive has lead to me volunteer as tech-support with a local non-profit that focuses on addiction recovery.</p>
+          <p>I have a family member that is employed at this organization and I found myself explaining the interworkings of an Access database at family functions.  I ended up getting introduced to the director and working with them over about a six month period to configure and update their central database which was built years earlier by another volunteer.</p>
+          <p> More recently, I've been trying to get some exposure to a broader set of technologies.  I've had an affinity for .NET for a while now, and I don't see that changing, but I want to be more proficient with front-end web development.  Now that I've got this site going, the next thing I want to look at is Node JS.  I'm the beginning stages of planning good sized  project and I want to be more informed about the different tech stacks before I start writing code.</p>        </div>
+      </div>
+      <div class="row py-5" style="background-color: whitesmoke;">
+        <div class="col-2 text-center">
+          <img src="pages/img/index/Build_0072.png" alt="Build">
+        </div>
+        <div class="col">
+          <h4 class="mt-0">Building</h4>
+          <p>Outside of computers and software, I think I've built some pretty cool stuff.  I've built two electric guitars, a gas fireplace with a custom surround and oak mantle, and custom cabinets for my basement.  I'm planning on keeping the content on this site pretty focused on tech and developer topics but, once in a while you might see an article about power tools or guitars.</p>          
         </div>
       </div>
     </div>
@@ -158,76 +119,6 @@
       </div>
     </div>
   </footer>
-    
-  <script>
-
-    var myButtons = document.getElementsByTagName("button");
-    var myContents = document.getElementsByTagName("section");
-    var rowContent = document.getElementById("rowContent");
-    var rowIcon = document.getElementById("rowIcon");      
-    
-    var i = 0;      
-    var h = getMaxScrollHeight();
-    
-    function getMaxScrollHeight(){
-      var ans = 0;
-      for(i=0; i<myContents.length; i++){
-        //console.log("content"+i+"scroll height is " + contents[i].scrollHeight);
-        if(myContents[i].scrollHeight>ans){
-          ans = myContents[i].scrollHeight;
-        }
-      }
-      //console.log("max scroll height: " + ans);
-      return ans;
-    }
-
-    function hideContent(){
-      for(i=0; i<myContents.length; i++){
-        myContents[i].classList.add("d-none");
-      }
-    }
-
-    function addButtonHandlers(){
-      for (i=0; i<myButtons.length; i++){
-        myButtons[i].addEventListener("click", buttonClickHandler);
-      }
-    }
-
-    function buttonClickHandler(){
-      // Loop through each icon
-      for (i=0; i<myButtons.length; i++){
-        var myButton = myButtons[i];
-        var myContent = document.getElementById("content" + myButton.id.slice(myButton.id.length-1));
-        if (myButtons[i].id == this.id){
-          // toggle ACTIVE class for button and content
-          myButton.classList.toggle("active");
-          //myContent.classList.toggle("active");
-          myContent.classList.toggle("d-none");
-          // set height then scroll
-          if(myButton.classList.contains("active")){
-            // stretch the content parent height
-            rowContent.style.height = h + "px";
-            // scroll icons to top of page
-            rowIcon.scrollIntoView(true);
-          }else{
-            // shrink content parent height
-            rowContent.style.height = null;
-            // scroll to the top of the page
-            document.body.scrollIntoView(true);
-          }
-        } else{
-          // remove the 'active' class from the button and hide content
-          myButton.classList.remove("active");
-          myContent.classList.add("d-none");
-        }
-      }
-    }
-
-    hideContent();
-    
-    addButtonHandlers();
-
-  </script>
 
 </body>
 </html>
