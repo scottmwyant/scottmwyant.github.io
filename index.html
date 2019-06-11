@@ -5,124 +5,51 @@
 	  <title>SMW</title>
     <link href="styles/bootstrap.css" rel="stylesheet">
     <link href="styles/bootstrap-mod.css" rel="stylesheet">
-    <link href="styles/site.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <style>
-      .jumbotron{
-        background-color: whitesmoke;
-        border-radius: 0rem 0rem 0.5rem 0.5rem;
-      }
-      main img{
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
 
 </head>
   
 <body>
 
-  <nav>
-    <div class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <a class="navbar-brand mr-auto" href="#">Scott M. Wyant</a>
-      <div class="navbar-nav ml-auto">
-      </div>
-    </div>    
-  </nav>
-
-  <header>
-    <div class="jumbotron">
+    <main class="jumbotron mt-4">
       <div class="container">
         <div class="row">
+          
+          <!-- First column, profile pic -->
           <div class="col-md-4 text-center mb-3" style="overflow: hidden;">
-              <img id="myIcon" style="max-width: 100%;" src="pages/img/index/Me_0500.png">
-          </div>
-          <div class="col-md-8">
-            <h2 class="display-4">Hello, world!</h2>
-            <p class="lead">I couldn't think of a more appropriate heading for this page, so I'm sticking with this timeless programming clich&eacute;.  This is where you can learn a little about me and my perspective on the topics I write about.  If you're looking for blog atricles, hit the link below. </p>
-              <div class="text-center">  
-                <a id="btnBlog" href="pages/content.html" class="btn btn-primary float-center my-4 px-3">Blog >></a>
+              <img id="myIcon" style="max-width: 250px; display: block; margin: auto;" src="img/Me_400x500.png" class="mt-3 img-thumbnail">
+              
+              <!-- Social icons -->
+              <div class="my-3" style="text-align: center;">
+                  <a href="https://github.com/scottmwyant" target="_blank"><img src="img/social_github.png" alt="GitHub" width="32px"></a>
+                  <a href="https://twitter.com/scottmwyant" target="_blank"><img src="img/social_twitter.png" alt="twitter" width="32px"></a>
+                  <a href="https://www.linkedin.com/in/scott-wyant-a2a13829/" target="_blank"><img src="img/social_linkedin.png" alt="LinkedIn" width="32px"></a>
+                  <a href="contact.html" target="_blank"><img src="img/social_email.png" alt="email" width="32px"></a>
               </div>
+              
           </div>
+
+          <!-- Second column, text -->
+          <div class="col">
+            <h2 class="text-center text-md-left">Scott M. Wyant</h2>
+            <div class="row mb-3">  
+                 <div class="text-center text-md-left col col-md-auto border-md-right" >
+                    Engineer
+                  </div>
+                  <div class="col-md text-center text-md-left">
+                    Cleveland, Ohio
+                  </div>  
+            </div>
+            
+            <p class="lead">Born and raised twenty five miles east of Cleveland, Ohio I've lived in the greater Cleveland area my entire life.  A graduate of Cleveland State University, my formal education is in Mechanical Engineering.</p>
+            <p>I began my career in metalworking in 2010 and while still enjoy that sector toady, I'm also drawn to software development.  I first became interested in coding while completing course work in C++ and MatLab.  I've come a long way since those days,  all thanks to the vast community of developers who have taken time to share their experiences to the benefit of others.</p>
+            <p>In the future I'd like find a way to contribute back to that community either through open-source, STEM outreach, blog articles, or some other means.  While I try and figure that out, feel free to say hi or send me a link to your project.</p> 
+          </div>
+          
         </div>
       </div>
-    </div>
-  </header>
-  
-  <main>
-    <div class="container">
-      <div class="row py-5">
-        <div class="col-2 text-center">
-          <img src="pages/img/index/AboutMe_0072.png" alt="AboutMe">
-        </div>
-        <div class="col">
-          <h4 class="mt-0">About Me</h4>
-            <p>Born and raised twenty five miles east of Cleveland, Ohio I've lived in the greater Cleveland area my entire life.  A graduate of Cleveland State University, my formal education is in Mechanical Engineering.  I first became interested in coding while completing course work in C++ and MatLab.  Around that same time I worked on a data-mining project at an internship where I was introduced to VBA.</p> 
-            <p>Now I enjoy working with modern web technologies and have a number of projects competing for my attention.  This is all thanks to the vast community of developers who have taken time to share their experiences for the benefit of others.  My purpose in creating this site is to contribute back to that community.</p>
-        </div>
       </div>
-      <div class="row py-5" style="background-color: whitesmoke;">
-        <div class="col-2 text-center">
-          <img src="pages/img/index/Factory_0072.png" alt="Manufacturing">
-        </div>
-        <div class="col">
-          <h4 class="mt-0">Manufacturing</h4>
-          <p>I've worked in manufacturing for the majority of my professional life.  In my current role, my primary function  is to develop and maintain processes on CNC equipment.  I'm directly responsible for five machines that range from twin-turret turning, to 4- and 5-axis milling platforms.  I'm excited about the work my team is doing to advance our implementation of the enterprise CAM package.  I like to think of CNC code, or "G-code", as another programming language and the CAM software as the development environment.  In the future, I would like to bring some of the tools and concepts from software development over to the manufacturing world.</p>
-        </div>
-      </div>
-      <div class="row py-5">
-        <div class="col-2 text-center">
-          <img src="pages/img/index/Normal_0072.png" alt="Quality">
-        </div>
-        <div class="col">
-          <h4 class="mt-0">Quality</h4>
-          <p>While working as Quality Engineer, my primary responsibility was to assess and mitigate risk related to customer returns.  Typically, this would mean leading a small cross-functional team through a disciplined problem solving process.  In this role, my knowledge and appreciation of applied statistics grew immensely.  I took particular interest in process capability studies, statistical process control (SPC), design of sampling plans (or average outgoing quality, AOQ) and design of experiments (DOE).</p>
-        </div>
-      </div>
-      <div class="row py-5" style="background-color: whitesmoke;">
-        <div class="col-2 text-center">
-          <img src="pages/img/index/Gears_0072.png" alt="Design">
-        </div>
-        <div class="col">
-          <h4 class="mt-0">Design</h4>
-          <p>I worked on a product design team as a co-op while I was in college.  When I finished school, I was given the opportunity to join the team as an applications engineer. The work I did was pretty typical for a product design role. I would start by getting an understanding the customer's application and  defining the requirements.  Then I would work with the manufacturing & assembly teams to design a solution and get a quote back to the customer.  While I was in this role I helped maintain an Access database that was used to store information about the customer requests and generate metrics on things like ticket complexity, the team's response time, and how requests would transform into sales.</p>          
-        </div>
-      </div>
-      <div class="row py-5">
-        <div class="col-2 text-center">
-          <img src="pages/img/index/Code_0072.png" alt="Code">
-        </div>
-        <div class="col">
-          <h4 class="mt-0">Code</h4>
-          <p>Coding is something that I got into as a hobby and never got bored with.  In fact, it's just the opposite, the more I learn the more I want to do.  That drive has lead to me volunteer as tech-support with a local non-profit that focuses on addiction recovery.</p>
-          <p>I have a family member that is employed at this organization and I found myself explaining the interworkings of an Access database at family functions.  I ended up getting introduced to the director and working with them over about a six month period to configure and update their central database which was built years earlier by another volunteer.</p>
-          <p> More recently, I've been trying to get some exposure to a broader set of technologies.  I've had an affinity for .NET for a while now, and I don't see that changing, but I want to be more proficient with front-end web development.  Now that I've got this site going, the next thing I want to look at is Node JS.  I'm the beginning stages of planning good sized  project and I want to be more informed about the different tech stacks before I start writing code.</p>        </div>
-      </div>
-      <div class="row py-5" style="background-color: whitesmoke;">
-        <div class="col-2 text-center">
-          <img src="pages/img/index/Build_0072.png" alt="Build">
-        </div>
-        <div class="col">
-          <h4 class="mt-0">Building</h4>
-          <p>Outside of computers and software, I think I've built some pretty cool stuff.  I've built two electric guitars, a gas fireplace with a custom surround and oak mantle, and custom cabinets for my basement.  I'm planning on keeping the content on this site pretty focused on tech and developer topics but, once in a while you might see an article about power tools or guitars.</p>          
-        </div>
-      </div>
-    </div>
-  </main>
-    
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <a href="https://github.com/scottmwyant" target="_blank">GitHub</a>
-          <a href="https://twitter.com/scottmwyant" target="_blank">Twitter</a>
-          <a href="pages/contact.html" target="_top">Email</a>
-          <!--<a href="pages/resume.pdf">Resume</a>-->
-        </div>
-      </div>
-    </div>
-  </footer>
+    </main>
 
 </body>
 </html>
