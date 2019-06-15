@@ -1,55 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
-	  <title>SMW</title>
-    <link href="styles/bootstrap.css" rel="stylesheet">
-    <link href="styles/bootstrap-mod.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>SMW</title>
+  <link href="styles/bootstrap.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style>
+    html,
+    body main {
+      height: 100%;
+    }
+
+    body {
+      background-color: whitesmoke;
+    }
+
+    main {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+
+    @media (min-width: 768px) {
+      .border-md-right {
+        border-right: 1px solid gray !important;
+      }
+    }
+  </style>
 
 </head>
-  
+
 <body>
+  <main class="container">
+    <div class="row">
 
-    <main class="jumbotron jumbotron-lg">
-      <div class="container">
-        <div class="row">
-          
-          <!-- First column, profile pic -->
-          <div class="col-md-4 text-center mb-3" style="overflow: hidden;">
-              <img id="myIcon" style="max-width: 95%; display: block; margin: auto;" src="img/Me_400x500.png" class="img-thumbnail">
-              
-              <!-- Social icons -->
-              <div class="my-3" style="text-align: center;">
-                  <a href="https://github.com/scottmwyant" target="_blank"><img src="img/social_github.png" alt="GitHub" width="32px"></a>
-                  <a href="https://twitter.com/scottmwyant" target="_blank"><img src="img/social_twitter.png" alt="twitter" width="32px"></a>
-                  <a href="https://www.linkedin.com/in/scott-wyant-a2a13829/" target="_blank"><img src="img/social_linkedin.png" alt="LinkedIn" width="32px"></a>
-                  <a href="contact.html" target="_blank"><img src="img/social_email.png" alt="email" width="32px"></a>
-              </div>
-              
-          </div>
+      <!-- First column, profile pic -->
+      <div class="col-md-4 text-center mb-3">
+        <img id="myIcon" style="max-width: 95%; display: block; margin: auto;" src="img/Me_400x500.png"
+          class="img-thumbnail">
 
-          <!-- Second column, text -->
-          <div class="col">
-            <h2 class="text-center text-md-left">Scott M. Wyant</h2>
-            <div class="row mb-3">  
-                 <div class="text-center text-md-left col col-md-auto border-md-right" >
-                    Engineer
-                  </div>
-                  <div class="col-md text-center text-md-left">
-                    Cleveland, Ohio
-                  </div>  
-            </div>
-            
-            <p class="lead">Born and raised twenty five miles east of Cleveland, Ohio I've lived in the greater Cleveland area my entire life.  A graduate of Cleveland State University, my formal education is in Mechanical Engineering.</p>
-            <p>I began my career in metalworking in 2010 and while still enjoy that sector toady, I'm also drawn to software development.  I first became interested in coding while completing course work in C++ and MatLab.  I've come a long way since those days,  all thanks to the vast community of developers who have taken time to share their experiences to the benefit of others.</p>
-            <p>In the future I'd like find a way to contribute back to that community either through open-source, STEM outreach, blog articles, or some other means.  While I try and figure that out, feel free to say hi or send me a link to your project.</p> 
-          </div>
-          
+        <!-- Social icons -->
+        <div class="my-3" style="text-align: center;">
+          <a href="https://github.com/scottmwyant" target="_blank"><img src="img/social_github.png" alt="GitHub"
+              width="32px"></a>
+          <a href="https://twitter.com/scottmwyant" target="_blank"><img src="img/social_twitter.png" alt="twitter"
+              width="32px"></a>
+          <a href="https://www.linkedin.com/in/scott-wyant-a2a13829/" target="_blank"><img src="img/social_linkedin.png"
+              alt="LinkedIn" width="32px"></a>
+          <a href="contact.html" target="_blank"><img src="img/social_email.png" alt="email" width="32px"></a>
         </div>
-      </div>
-      </div>
-    </main>
 
+      </div>
+
+      <!-- Second column, text -->
+      <div class="col">
+        <h2 class="text-center text-md-left">Scott M. Wyant</h2>
+        <div class="row">
+          <div class="text-center text-md-left col col-md-auto border-md-right">
+            Engineer
+          </div>
+          <div class="col-md text-center text-md-left">
+            Cleveland, Ohio
+          </div>
+        </div>
+
+        <p class="lead my-4">Born and raised twenty five miles east of Cleveland, Ohio I've lived in the greater
+          Cleveland area my entire life. A graduate of Cleveland State University, my formal education is in Mechanical
+          Engineering.</p>
+        <p>I began my career in metalworking in 2010 and while still enjoy that sector today, I'm also drawn to software
+          development. I first became interested in coding while completing course work in C++ and MatLab. I've come a
+          long way since those days, all thanks to the vast community of developers who have taken time to share their
+          experiences to the benefit of others.</p>
+        <p>In the future I'd like find a way to contribute back to that community either through open-source, STEM
+          outreach, blog articles, or some other means. While I try and figure that out, feel free to say hi or send me
+          a link to your project.</p>
+      </div>
+
+    </div>
+    </div>
+  </main>
 </body>
+
 </html>
