@@ -18,11 +18,17 @@ h4{
 
 .jumbotron{
   background-color: whitesmoke;
-  border-radius: 1rem;
 }
 
 @media (min-width: 768px) {
   .border-md-right{
     border-right: 1px solid #dee2e6 !important;
+  }
+ }
+
+ @media(min-width: 992px){
+  .jumbotron-lg{
+    border-radius: 1rem;
+    margin-top: 1.5rem;
   }
  }
