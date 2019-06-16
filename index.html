@@ -7,38 +7,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <style>
-    html,
-    body main {
-      height: 100%;
-    }
-
-    body {
+    .jumbotron{
       background-color: whitesmoke;
+      border-radius: 0 0 1rem 1rem;
     }
-
-    main {
-      margin-top: 4rem;
-      margin-bottom: 4rem;
-    }
-
     @media (min-width: 768px) {
       .border-md-right {
         border-right: 1px solid gray !important;
       }
     }
+    @media(max-width: 575px){
+      html, body, main{height: 100%;}
+      .jumbotron{
+        border-radius: 0;
+        margin-bottom: 0;
+      }
+    }
+
   </style>
 
 </head>
 
 <body>
-  <main class="container">
+  <main class="container jumbotron">
     <div class="row">
 
       <!-- First column, profile pic -->
       <div class="col-md-4 text-center mb-3">
-        <img id="myIcon" style="max-width: 95%; display: block; margin: auto;" src="img/Me_400x500.png"
+        <div style="max-width: 275px; margin: auto; text-align: center;">
+          <img style="max-width: 100%;" src="img/Me_400x500.png"
           class="img-thumbnail">
-
+        </div>
+        
         <!-- Social icons -->
         <div class="my-3" style="text-align: center;">
           <a href="https://github.com/scottmwyant" target="_blank"><img src="img/social_github.png" alt="GitHub"
