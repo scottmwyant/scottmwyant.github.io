@@ -10,6 +10,8 @@
     .jumbotron{
       background-color: whitesmoke;
       border-radius: 0 0 1rem 1rem;
+      border: solid thin lightgray;
+      border-top: 0px;
     }
     @media (min-width: 768px) {
       .border-md-right {
@@ -20,6 +22,20 @@
       .jumbotron{
         border-radius: 0;
         margin-bottom: 0;
+        border: none;
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      body{
+        background-color: #252526;
+      }
+      .jumbotron{
+        color: #D4D4D4;
+        background-color: #1E1E1E;
+      }
+      .img-thumbnail{
+        background-color: #333333;
+        border-color:  #333333;
       }
     }
 
